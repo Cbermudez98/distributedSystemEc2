@@ -19,7 +19,6 @@ provider "aws" {
   region = var.aws_region
 }
 
-
 # resource "aws_s3_bucket" "app_bucket" {
 #   bucket = "${var.container_name}-app-bucket-${random_id.suffix.hex}"
 # }
