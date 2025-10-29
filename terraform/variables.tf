@@ -49,13 +49,13 @@ variable "container_port" {
 variable "task_cpu" {
   description = "CPU units for the task"
   type        = number
-  default     = 256
+  default     = 512
 }
 
 variable "task_memory" {
   description = "Memory for the task in MB"
   type        = number
-  default     = 512
+  default     = 1024
 }
 
 variable "desired_count" {
